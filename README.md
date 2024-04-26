@@ -1,10 +1,8 @@
 # Nest-postgress-typeorm-setup
 
-Invoice is a comprehensive invoice management system designed to streamline the process of creating, sending, and tracking invoices. Built with NestJS, this project leverages the framework's robustness to deliver a scalable, maintainable, and secure API
-
 ## Pre-requisites
 
-To use the invoice service, you need the following tools.
+you need the following tools.
 
 -   [Git](https://git-scm.com/)
 -   [Node.js >= 20](https://nodejs.org/en/): Node installation also includes the _npm_ package manager. Or if want to manage multiple Node versions on system, use [NVM](https://github.com/coreybutler/nvm-windows/releases) and install specific Node version using nvm commands.
@@ -54,7 +52,7 @@ To start the application in development mode, run:
 Tests are defined in the `src/**/*.spec.ts` files in this project.
 
 ```bash
-email-service$ pnpm test
+      pnpm test
 ```
 
 ### E2E tests
@@ -62,5 +60,5 @@ email-service$ pnpm test
 Execute end-to-end tests with:
 
 ```bash
-email-service$ pnpm test:e2e
+     pnpm test:e2e
 ```
